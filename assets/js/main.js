@@ -3,6 +3,7 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+Dropzone.autoDiscover = false;
 
 (function($) {
 
@@ -98,3 +99,18 @@
 	});
 
 })(jQuery);
+
+$(document).on("ready", function(){
+	console.log("loaded");
+
+	var myDropzone = new Dropzone("#my-dropzone");
+	myDropzone.on("addedfile", function(file) {
+		console.log(file)
+
+		//alert(file.name);
+
+
+    /* Maybe display some more file information on your page */
+  });
+
+})
