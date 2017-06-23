@@ -1473,6 +1473,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
+		font-family: -apple-system, 'BlinkMacSystemFont', '.SFNSDisplay-Regular', sans-serif;
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
