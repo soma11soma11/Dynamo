@@ -2,11 +2,17 @@
   width: 100%;
   height: auto;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background:#4286f4;
-  color: #222;
+  padding-top: 600px;
+  padding-bottom: 200px;
+  background:#000000;
+  background-image: url("../../images/put-your-file-here.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+
 }
+
 
 #confirmation-section {
   width: 100%;
@@ -30,4 +36,20 @@
   bottom: 0;
   width: 100%;
   height: 100%;
+}
+
+.dz-default dz-message {
+  padding-top: 200px;
+
+}
+
+.headermargin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.headermargintop{
+  margin-top: 4px;
+}
+.headermargintop2{
+  margin-top: 13px;
 }

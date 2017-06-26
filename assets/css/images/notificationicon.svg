@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7844.5 -118.083 28.453 28.286">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #a7f4d6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #ff6200;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 11px;
+        font-family: SanFranciscoText-Semibold, San Francisco Text;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="Group_110" data-name="Group 110" transform="translate(6084.75 -318)">
+    <g id="Group_33" data-name="Group 33" transform="translate(1760.25 200.417)">
+      <path id="Path_1" data-name="Path 1" class="cls-1" d="M10.763,50.01H4.374A1.394,1.394,0,0,1,3,48.616v-.13a1.394,1.394,0,0,1,1.374-1.394C6.546,47.06,7.313,37.3,7.313,37.3a3.482,3.482,0,0,1,3.45-3.5h2.348a3.482,3.482,0,0,1,3.45,3.5s.767,9.758,2.939,9.791a1.394,1.394,0,0,1,1.374,1.394v.13A1.394,1.394,0,0,1,19.5,50.01H10.763Z" transform="translate(-3 -28.807)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="M53.2,3.681A.68.68,0,0,1,53.871,3h.463A.68.68,0,0,1,55,3.681V5.675H53.2Z" transform="translate(-45.182 -3)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-1" d="M48.828,149a2.364,2.364,0,1,1-4.728,0Z" transform="translate(-37.535 -125.333)"/>
+    </g>
+    <g id="Group_67" data-name="Group 67" transform="translate(-44.203 120.797)">
+      <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-2" cx="7.203" cy="7.203" r="7.203" transform="translate(1818 93)"/>
+      <text id="_3" data-name="3" class="cls-3" transform="translate(1824.879 103.554)"><tspan x="-3.236" y="0">3</tspan></text>
+    </g>
+  </g>
+</svg>
