@@ -104,19 +104,50 @@ Dropzone.autoDiscover = false;
 })(jQuery);
 
 $(document).on("ready", function(){
-	console.log("loaded");
 
-	var myDropzone = new Dropzone("#my-dropzone");
+	var jsmediatags = window.jsmediatags;
+
+	var id = "#my-dropzone";
+	var myDropzone = new Dropzone(id, {thumbnailWidth:"500px", acceptedFiles: "audio/*"});
 	myDropzone.on("addedfile", function(file) {
-		console.log(file)
-
-		//alert(file.name);
 
 
-    /* Maybe display some more file information on your page */
-  });
+		Array.prototype.map.call(document.querySelector(id).children, function(node){
+			if(node.classList.contains("dz-message")){
+				node.remove();
+				document.getElementById('my-dropzone').style.backgroundImage = "none";
+				document.getElementById('my-dropzone').style.paddingTop = "30vh";
+
+			}
+
+		});
+
+		if (!file.type.match(/image.*/)) {
+		 // This is not an image, so Dropzone doesn't create a thumbnail.
+		 // Set a default thumbnail:
+		 console.log("running")
+		 jsmediatags.read(file, {
+			 onSuccess: function(tag){
+				 var image = tag.tags.picture;
+				 if(image){
+					console.log("hoge");
+				 	var base64String = "";
+					for (var i = 0; i < image.data.length; i++) {
+					    base64String += String.fromCharCode(image.data[i]);
+					}
+					var base64 = `data:${image.format};base64,${window.btoa(base64String)}`;
+						myDropzone.emit("thumbnail", file, base64);
+				 }
+			 }
+		 });
+	 }
+	});
 
 })
+
+
+
+
 
 
 
