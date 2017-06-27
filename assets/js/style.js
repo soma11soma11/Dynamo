@@ -1,11 +1,11 @@
-var partNum = 70;
+var partNum = 90;
 
 
 var c = document.getElementById('c');
 var ctx = c.getContext('2d');
 
-var w = window.innerWidth;
-var h = window.innerHeight;
+var w = 5000;
+var h = 2000;
 
 var mouse = {
   x: w / 2,
@@ -26,7 +26,7 @@ function particle() {
   this.x = Math.random() * w - w / 5;
   this.y = Math.random() * h;
 
-  this.r = Math.random() * 7.5 + 3.25;
+  this.r = Math.random() * 3.5 + 3.25;
 }
 
 var draw = function() {

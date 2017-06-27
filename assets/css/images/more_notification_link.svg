@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="3501 113.539 320.5 381.461">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-8 {
+        stroke: rgba(255,255,255,0.5);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #a7f4d6;
+        font-size: 13px;
+        font-family: Archer-Medium, Archer;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        font-size: 15px;
+        font-family: Archer-Book, Archer;
+      }
+
+      .cls-6 {
+        fill: #d1d1d1;
+        font-size: 11px;
+        font-family: Archer-BookItalic, Archer;
+        font-style: italic;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-8 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-10 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-11 {
+        clip-path: url(#clip-path-8);
+      }
+
+      .cls-12 {
+        clip-path: url(#clip-path-9);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="15" cy="15" r="15" transform="translate(0 0)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="50" height="50" transform="translate(106 116)"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="50" height="50" transform="translate(132.5 47.8)"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="15" cy="15" r="15" transform="translate(21.2 8.3)"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="15" cy="15" r="15" transform="translate(2.3 4)"/>
+    </clipPath>
+    <clipPath id="clip-path-9">
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="50" height="50"/>
+    </clipPath>
+    <image id="image" width="37.812" height="37.812" xlink:href="more_notification_link-image.jpg"/>
+    <image id="image-2" width="241.855" height="157.823" xlink:href="more_notification_link-image3.png"/>
+  </defs>
+  <g id="Group_225" data-name="Group 225" transform="translate(1990)">
+    <path id="Path_6" data-name="Path 6" class="cls-1" d="M3485.113-1282l11.113-21.461L3507.342-1282Z" transform="translate(-1698 1417)"/>
+    <path id="Path_7" data-name="Path 7" class="cls-1" d="M0,0H320V360H0Z" transform="translate(1511 135)"/>
+    <line id="Line_533" data-name="Line 533" class="cls-2" y2="337" transform="translate(1538.5 157.5)"/>
+    <g id="Group_55" data-name="Group 55" transform="translate(-1689 1417)">
+      <g id="Group_53" data-name="Group 53">
+        <g id="Group_43" data-name="Group 43" transform="translate(3137.483 -1343.127)">
+          <g id="Group_31" data-name="Group 31" class="cls-3" transform="translate(75 75)">
+            <use id="Rectangle_3" data-name="Rectangle 3" transform="translate(-3.906 -3.906)" xlink:href="#image"/>
+          </g>
+        </g>
+        <text id="Benjamin_Vasquez_sampled_your_song" data-name="Benjamin Vasquez sampled your song" class="cls-4" transform="translate(3254 -1264)"><tspan x="0" y="10">Benjamin Vasquez </tspan><tspan class="cls-1" y="10">sampled your song</tspan></text>
+        <text id="Mashup" class="cls-5" transform="translate(3314 -1209)"><tspan x="0" y="12">Mashup</tspan></text>
+        <text id="_10_hours_ago" data-name="10 hours ago" class="cls-6" transform="translate(3254 -1248)"><tspan x="0" y="9">10 hours ago</tspan></text>
+        <g id="Group_47" data-name="Group 47" transform="translate(3148 -1342)">
+          <g id="Group_46" data-name="Group 46" class="cls-7">
+            <image id="Rectangle_14" data-name="Rectangle 14" width="185.329" height="208.382" xlink:href="more_notification_link-image2.png"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_8" data-name="Path 8" class="cls-8" d="M267,0H0" transform="translate(3253.5 -1162.5)"/>
+    </g>
+    <g id="Group_56" data-name="Group 56" transform="translate(-1689 1537)">
+      <line id="Line_534" data-name="Line 534" class="cls-2" x1="267" transform="translate(3253.5 -1162.5)"/>
+      <g id="Group_57" data-name="Group 57" transform="translate(0 -114)">
+        <g id="Group_48" data-name="Group 48" transform="translate(3137 -1229)">
+          <g id="Group_31-2" data-name="Group 31" class="cls-3" transform="translate(75 75)">
+            <use id="Rectangle_3-2" data-name="Rectangle 3" transform="translate(-3.906 -3.906)" xlink:href="#image"/>
+          </g>
+        </g>
+        <text id="Inez_Lopez_sampled_your_song" data-name="Inez Lopez sampled your song" class="cls-4" transform="translate(3254 -1150)"><tspan x="0" y="10">Inez Lopez </tspan><tspan class="cls-1" y="10">sampled your song</tspan></text>
+        <text id="Summer_in_IDEO" data-name="Summer in IDEO" class="cls-5" transform="translate(3314 -1095)"><tspan x="0" y="12">Summer in IDEO</tspan></text>
+        <text id="_18_hours_ago" data-name="18 hours ago" class="cls-6" transform="translate(3254 -1134)"><tspan x="0" y="9">18 hours ago</tspan></text>
+        <g id="Group_52" data-name="Group 52" transform="translate(3121.5 -1159.8)">
+          <g id="Group_51" data-name="Group 51" class="cls-9">
+            <use id="Rectangle_16" data-name="Rectangle 16" xlink:href="#image-2"/>
+          </g>
+        </g>
+        <g id="Group_59" data-name="Group 59" transform="translate(3190.8 -1162.3)">
+          <g id="Group_59-2" data-name="Group 59" class="cls-10">
+            <image id="Rectangle_19" data-name="Rectangle 19" width="58.268" height="41.726" xlink:href="more_notification_link-image4.jpg"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_58" data-name="Group 58" transform="translate(-1689 1657)">
+      <g id="Group_57-2" data-name="Group 57" transform="translate(0 -114)">
+        <g id="Group_48-2" data-name="Group 48" transform="translate(3137 -1229)">
+          <g id="Group_31-3" data-name="Group 31" class="cls-3" transform="translate(75 75)">
+            <use id="Rectangle_3-3" data-name="Rectangle 3" transform="translate(-3.906 -3.906)" xlink:href="#image"/>
+          </g>
+        </g>
+        <text id="Lou_Hawkins_sampled_your_song" data-name="Lou Hawkins sampled your song" class="cls-4" transform="translate(3254 -1150)"><tspan x="0" y="10">Lou Hawkins </tspan><tspan class="cls-1" y="10">sampled your song</tspan></text>
+        <text id="Beach_Hot_pot" data-name="Beach Hot pot" class="cls-5" transform="translate(3314 -1095)"><tspan x="0" y="12">Beach Hot pot</tspan></text>
+        <text id="_18_hours_ago-2" data-name="18 hours ago" class="cls-6" transform="translate(3254 -1134)"><tspan x="0" y="9">18 hours ago</tspan></text>
+        <g id="Group_52-2" data-name="Group 52" transform="translate(3121.5 -1159.8)">
+          <g id="Group_51-2" data-name="Group 51" class="cls-9">
+            <use id="Rectangle_16-2" data-name="Rectangle 16" xlink:href="#image-2"/>
+          </g>
+        </g>
+        <g id="Group_60" data-name="Group 60" transform="translate(3209.7 -1158)">
+          <g id="Group_60-2" data-name="Group 60" class="cls-11">
+            <image id="Rectangle_20" data-name="Rectangle 20" width="33.39" height="41.757" xlink:href="more_notification_link-image5.png"/>
+          </g>
+        </g>
+        <g id="Group_61" data-name="Group 61" transform="translate(3254 -1112)">
+          <g id="Group_61-2" data-name="Group 61" class="cls-12">
+            <image id="Rectangle_21" data-name="Rectangle 21" width="50.002" height="50.002" xlink:href="more_notification_link-image6.jpg"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -84,6 +84,44 @@ canvas {
   color: #151B1F;
 }
 
+
+
 a {
+
+  text-decoration: none;
+}
+.headermenumargin{
+  margin-left: auto;
+}
+
+.headermenumarginleft{
+  margin-left: 700px;
+}
+.headertopcolor{
   color: #1abc9c;
+  font-size: 28px;
+}
+.headerelsecolor{
+  color: #939393;
+  font-size: 15px
+}
+
+#menu-div span{
+    margin: 0px;
+}
+#menu-div ul{
+  margin-top: 10px;
+}
+#menu-div li{
+  height: 8px;
+  margin-right: 20px;
+}
+.headerdivide{
+  margin-bottom: 8px;
+}
+.headerelsecolor a{
+  font-size: 0.5em;
+}
+.headertopcolor a{
+  font-size: 0.5em;
 }
