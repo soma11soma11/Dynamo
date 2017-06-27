@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/*@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");*/
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300');*/
 
 
 
@@ -1416,9 +1416,10 @@
 	body, input, select, textarea {
 		color: #fff;
 		/*font-family: "Open Sans", Helvetica, sans-serif;*/
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto';
+
 		font-size: 15pt;
-		font-weight: 400;
+		/*font-weight: 400;*/
 		letter-spacing: 0.075em;
 		line-height: 1.65em;
 	}
@@ -1477,9 +1478,10 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
-		font-family: -apple-system, 'BlinkMacSystemFont', '.SFNSDisplay-Regular', sans-serif;
-		font-family: 'Roboto', sans-serif;
-		font-weight: 800;
+		/*font-family: -apple-system, 'BlinkMacSystemFont', '.SFNSDisplay-Regular', sans-serif;*/
+		font-family: 'Roboto';
+
+		/*font-weight: 800;*/
 		letter-spacing: 0.225em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1494,6 +1496,7 @@
 	h2 {
 		font-size: 1.35em;
 		line-height: 1.75em;
+		font-family: 'Roboto', sans-serif;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -1506,7 +1509,7 @@
 		}
 
 	h3 {
-		font-size: 2.125em;
+		font-size: 1.0em;
 		line-height: 1.75em;
 	}
 
@@ -1567,7 +1570,8 @@
 		background: rgba(144, 144, 144, 0.25);
 		border-radius: 3px;
 		/*font-family: "Courier New", monospace;*/
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto';
+
 		font-size: 0.9em;
 		letter-spacing: 0;
 		margin: 0 0.25em;
@@ -1577,7 +1581,8 @@
 	pre {
 		-webkit-overflow-scrolling: touch;
 		/*font-family: "Courier New", monospace;*/
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Roboto';
+
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1625,6 +1630,7 @@
 
 	header.major {
 		margin: 0 0 3.5em 0;
+		margin-top: 150px;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -1721,7 +1727,8 @@
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			/*font-family: FontAwesome;*/
-			font-family: 'Roboto', sans-serif;
+			font-family: 'Roboto';
+
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -1790,8 +1797,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				/*font-family: FontAwesome;*/
-				font-family: 'Roboto', sans-serif;
+				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1889,8 +1895,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			/*font-family: FontAwesome;*/
-			font-family: 'Roboto', sans-serif;
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2685,7 +2690,7 @@
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c7ebe8;
+				color: #fff;
 			}
 
 			.wrapper.style1 label {
@@ -3500,7 +3505,8 @@
 		#banner p {
 			letter-spacing: 0.5em;
 			/*text-transform: uppercase;*/
-			font-family: 'Roboto', sans-serif;
+			font-family: 'Roboto';
+
 
 
 		}

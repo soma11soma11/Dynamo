@@ -44,12 +44,46 @@
 }
 
 .headermargin {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .headermargintop{
   margin-top: 4px;
 }
 .headermargintop2{
   margin-top: 13px;
+}
+.dropdown-menu{
+  background-color:#000;
+  left: -85px;
+}
+.dropdown-menu>li>a {
+  color :#A7F4D6;
+}
+canvas {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  background-color: #000;
+  height: 100vh;
+}
+
+
+.iose {
+  width: 135px;
+  height: 45px;
+  background-color: lightgray;
+  top: 0px;
+  right: 0px;
+  position: fixed;
+  line-height: 22px;
+  font-size: 20px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Roboto, Arial, Sans-serif;
+  color: #151B1F;
+}
+
+a {
+  color: #1abc9c;
 }

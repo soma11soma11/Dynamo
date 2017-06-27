@@ -1,9 +1,3 @@
-<script>
-$(document).ready(function(){
-    $(".dropdown-toggle").dropdown();
-});
-</script>
-
 var partNum = 70;
 
 
@@ -17,12 +11,12 @@ var mouse = {
   x: w / 2,
   y: 0
 };
-<script>
-$(document).addEventListener('mousemove', function(e){
+
+document.addEventListener('mousemove', function(e){
     mouse.x = e.clientX || e.pageX;
     mouse.y = e.clientY || e.pageY
 }, false);
-</script>
+
 var particles = [];
 for(i = 0; i < partNum; i++) {
   particles.push(new particle);
@@ -43,7 +37,7 @@ var draw = function() {
     var p = particles[t];
     var nowX = p.r + mouse.x / 4.6;
     var nowY = p.r + mouse.y / 4.6;
-    var color = '#d35400';
+    var color = '#A7F4D6';
 
     if(p.r < 10) {
       nowX = p.x + mouse.x / 0.5;
@@ -94,3 +88,9 @@ var draw = function() {
 }
 
 setInterval(draw, 33);
+
+//doesn't it look 3d??
+
+//Follow me!
+
+//I appreciate it!
