@@ -22,43 +22,14 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Dynamo</a></h1>
+				<img src="images/bar.svg" >
 
-						<nav>
-
-
-						    <ul class="navbar-nav">
-						      <li class="headermargin"><a><img src="assets/css/images/profile_photo.svg" width="35"></a></li>
-									<li class="headermargin headermargintop"><a><img src="assets/css/images/messagericon.svg" width="35"></a></li>
-						      <li class="dropdown headermargin"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="assets/css/images/notificationicon.svg" width="35"></a>
-						        <ul class="dropdown-menu">
-						          <li><img src="assets/css/images/more_notification.svg" width="250"></li>
-						        </ul>
-						      </li>
-
-									<li class="headermargi headermargintop dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="assets/css/images/menuicon.svg" width="35"></a>
-											<ul class="dropdown-menu">
-												<li><a href="index.html">ECHO ME</a></li>
-												<li><a href="#cta">Licensing</a></li>
-												<li><a href="#cta">Tipping</a></li>
-												<li><a href="#cta">My Music</a></li>
-												<li><a href="#cta">Statistics</a></li>
-												<li><a href="#cta">My Account</a></li>
-										 </ul>
-									</li>
-						    </ul>
-
-						</nav>
-
-
-					</header>
-
+				<!-- <a onclick="showLoadingAnimation()" class="button">YES</a> -->
 
 
 
 <!-- action="/file-upload" -->
-					<form action="./scanned.html" class="dropzone" id="my-dropzone">
+					<form action="./uploaded.html" class="dropzone" id="my-dropzone">
 
 					</form>
 
@@ -66,7 +37,9 @@
 
 			</div>
 
+			<div class="loading">
 
+			</div>
 
 
 
@@ -83,5 +56,15 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/jsmediatags.min.js"></script>
 			<script src="assets/js/style.js"></script>
+			<script>
+
+				function showLoadingAnimation(){
+					$(".loading").show();
+					setTimeout(function () {
+						window.location.href = "certificate.html"; //will redirect to your blog page (an ex: blog.html)
+					}, 10000);
+
+				}
+			</script>
 	</body>
 </html>

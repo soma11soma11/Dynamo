@@ -4,15 +4,30 @@
   text-align: center;
   padding-top: 80vh;
   margin: 0 auto;
-  background:#000000;
-  background-image: url("../../images/put-your-file-here.gif");
+  background:#32363D;
+  background-image: url("../../images/drag.gif");
+  background-size: 300px 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   color: #fff;
 
 }
+#my-dropzone2 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 80vh;
+  margin: 0 auto;
+  background:#000000;
+  background-image: url("../../images/process.gif");
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
 
+}
 
 #confirmation-section {
   width: 100%;
@@ -27,13 +42,17 @@
 .loading {
   display: none;
   position: fixed;
-  background-image: url("../../images/loading.gif");
-  background-color: #cccccc;
+  background-image: url("../../images/process.gif");
+  background-repeat: no-repeat;
+  background-size: 458px 458px;
+  background-color: #000;
   z-index: 10000;
-  top:0;
-  left: 0;
+  top:250px;
+  left: 600px;
   right: 0;
   bottom: 0;
+  /*width: 200px;*/
+  /*height: 200px;*/
   width: 100%;
   height: 100%;
 }
@@ -55,7 +74,7 @@
 }
 .dropdown-menu{
   background-color:#000;
-  left: -85px;
+  /*left: -85px;*/
 }
 .dropdown-menu>li>a {
   color :#A7F4D6;
@@ -124,4 +143,87 @@ a {
 }
 .headertopcolor a{
   font-size: 0.5em;
+}
+.container-fluid{
+  background-color: #000;
+}
+.navbar-default{
+  border-color: #A7F4D6;
+}
+.btn-default{
+  background-color: #000;
+}
+.navbar-form{
+  padding-top: 15px;
+}
+.musicinfo1{
+  padding: 50px;
+}
+.musicinfo2{
+  padding : 100px;
+}
+#musicinfo{
+  height: 100%;
+  background-image: url("../../images/scanning_result.svg");
+  height: 2100px;
+  width: 1440px;
+  background-color: #000;
+  background-repeat: no-repeat;
+}
+.musicinfobutton{
+  position: absolute;
+  bottom: -410px;
+  right:200px;
+}
+#filter0{
+  height: 100%;
+  background-image: url("../../images/filter0.svg");
+  height: 800px;
+  width: 1440px;
+  background-color: #000;
+  background-repeat: no-repeat;
+}
+.filter0button{
+  position: absolute;
+  bottom: 50px;
+  right:200px;
+  color: #000;
+}
+.filter0button_fake{
+  position: absolute;
+  bottom: 40px;
+  right:800px;
+}
+.scan0button_fake{
+  position: absolute;
+  bottom: 40px;
+  right:1000px;
+}
+#filter1{
+  height: 100%;
+  background-image: url("../../images/filter1.svg");
+  height: 800px;
+  width: 1440px;
+  background-color: #000;
+  background-repeat: no-repeat;
+}
+.filter1button{
+  position: absolute;
+  bottom: 50px;
+  right:200px;
+  color: #000;
+}
+#filter2{
+  height: 100%;
+  background-image: url("../../images/filter2.svg");
+  height: 2200px;
+  width: 1440px;
+  background-color: #000;
+  background-repeat: no-repeat;
+}
+.filter2button{
+  position: absolute;
+  bottom: -1300px;
+  right:200px;
+  color: #000;
 }

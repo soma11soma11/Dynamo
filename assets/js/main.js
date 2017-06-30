@@ -122,28 +122,29 @@ $(document).on("ready", function(){
 
 		});
 
-		if (!file.type.match(/image.*/)) {
-		 // This is not an image, so Dropzone doesn't create a thumbnail.
-		 // Set a default thumbnail:
-		 console.log("running")
-		 jsmediatags.read(file, {
-			 onSuccess: function(tag){
-				 var image = tag.tags.picture;
-				 if(image){
-					console.log("hoge");
-				 	var base64String = "";
-					for (var i = 0; i < image.data.length; i++) {
-					    base64String += String.fromCharCode(image.data[i]);
-					}
-					var base64 = `data:${image.format};base64,${window.btoa(base64String)}`;
-						myDropzone.emit("thumbnail", file, base64);
-				 }
-			 }
-		 });
-	 }
+	// 	if (!file.type.match(/image.*/)) {
+	// 	 // This is not an image, so Dropzone doesn't create a thumbnail.
+	// 	 // Set a default thumbnail:
+	// 	 console.log("running")
+	// 	 jsmediatags.read(file, {
+	// 		 onSuccess: function(tag){
+	// 			 var image = tag.tags.picture;
+	// 			 if(image){
+	// 				console.log("hoge");
+	// 			 	var base64String = "";
+	// 				for (var i = 0; i < image.data.length; i++) {
+	// 				    base64String += String.fromCharCode(image.data[i]);
+	// 				}
+	// 				var base64 = `data:${image.format};base64,${window.btoa(base64String)}`;
+	// 					myDropzone.emit("thumbnail", file, base64);
+	// 			 }
+	// 		 }
+	// 	 });
+	//  }
 	});
 
 })
+
 
 
 
